@@ -18,7 +18,7 @@ n= int(input())
 data= [list(map(int, input().split())) for i in range (n)]
 
 a= np.array(data)
-
+print(a)
 data= [list(map(int, input().split())) for i in range (n)]
 b= np.array(data)
 result=np.matmul(a,b)
